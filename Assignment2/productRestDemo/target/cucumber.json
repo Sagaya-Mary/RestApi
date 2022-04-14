@@ -1,0 +1,48 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-04T12:00:14.457Z",
+        "line": 3,
+        "name": "Set Products details",
+        "description": "",
+        "id": "product-functionality;set-products-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 420757300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I set post products endpoint api",
+            "match": {
+              "location": "com.dfs.product.cucumber.StepDefinitions.i_set_post_products_endpoint_api()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 198063200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "return product details",
+            "match": {
+              "location": "com.dfs.product.cucumber.StepDefinitions.return_product_details()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Product functionality",
+    "description": "",
+    "id": "product-functionality",
+    "keyword": "Feature",
+    "uri": "classpath:features/cucumber.feature",
+    "tags": []
+  }
+]
